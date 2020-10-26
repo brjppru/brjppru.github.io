@@ -1,3 +1,3 @@
 # brjppru.github.io
 
-blacked by brj // 2020.09.15
+the бырдж стартап хоме паге by brj // 2020.10.26
