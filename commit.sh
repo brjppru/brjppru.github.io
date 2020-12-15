@@ -6,6 +6,8 @@ dated=`date +%Y-%m-%d-%H%M%S`
 
 # git add
 
+echo "updated on $dated" >> README.md
+
 git add .
 echo run git push on ${dated}
 
