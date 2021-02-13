@@ -4,6 +4,6 @@
 /* TEAM */
   Developer: Roman Y. Bogdanov
   Contact: r.bogdanov [at] outlook.com
-  Site: brj.pp.ru
+  Site: ams.brj.pp.ru
   Twitter: @brjppru
   From: Innopolis, Tatarstan republic (From Russia with great affection!)
