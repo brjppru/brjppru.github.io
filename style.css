@@ -1,11 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&display=swap');
 
 :root {
-    --background: #1C1E26;
+    --background: #6db784;
     --syn: #AA455F;
-    --name: #11D8A8;
-    --value: #E4A88A;
-    --prompt: #A96ECA;
+    --name: #f9e45b;
+    --value: #189ab4;
+    --prompt: #1b4d89;
+}
+
+a {
+    color: #355440; /* Цвет обычной ссылки */ 
+}
+
+a:hover {
+    color: #FFFFFF; /* Цвет ссылки при наведении на нее курсора мыши */  
+    background: #e24486;
 }
 
 ::-moz-selection { 
