@@ -1,18 +1,22 @@
-#!/bin/sh
+#!/bin/bash
 
-# git push brj.pp.ru repo to github
+#
+# git push scriptbox repo to githublo
+#
 
-dated=`date +%Y-%m-%d-%H%M%S`
-
-# git add
-
-echo "updated on $dated" >> README.md
+dated=$(date +%Y-%m-%d-%H%M%S)
+commt=$(curl -L --proxy http://192.168.0.11:3129 -s http://whatthecommit.com/index.txt)
 
 git add .
-echo run git push on ${dated}
+
+echo run git push on ${dated} ${commt}
 
 for i in `git status | grep deleted | awk '{print $2}'`; do git rm $i; done
 
-git commit -m "$dated $(curl -s http://whatthecommit.com/index.txt)"
-git push -u origin master
+git commit -m "$dated $commt"
 
+git push
+
+#
+# non master, just a main. fck2020 (c) scooter
+#
