@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #
-# git push scriptbox repo to githublo
+# git push brjppru.github.io repo to githublo
 #
 
 dated=$(date +%Y-%m-%d-%H%M%S)
